@@ -32,7 +32,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="hero">
             <h2>Olá, sou o João Moraes</h2>
             <p>sou um estudante de desenvolvimento Frontend 
             pelo Instituto Proa.</p>
@@ -42,7 +42,7 @@
              <img src="assets/img/foto.joao.png" alt="Foto do João Moraes">
         </section>
 
-        <section>
+        <section id="projetos">
             <h2>Meus Projetos</h2>
             <p>Confira alguns dos meus projetos e a qualidade
              presente em cada um deles.
@@ -82,18 +82,26 @@
         <section>
             <h2>Entre em contato</h2>
             <form>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva" required>
+                <div>
+                   <label for="nome">Nome</label>
+                   <input type="text" name="nome" id="nome" placeholder="Ex: Ana Silva" required>
+                </div>
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888" required>
-
-                <label for="email">Email</label>
-                <input type="email"  name="email" id="email" placeholder="Ex: seu@email.com" required>
-
-                <label for="mensagem">Mensagem</label>
-               <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
-
+               <div>
+                 <label for="telefone">Telefone</label>
+                 <input type="tel" name="telefone" id="telefone" placeholder="Ex: 11 99999-8888" required>
+               </div>
+                
+                <div>
+                  <label for="email">Email</label>
+                 <input type="email"  name="email" id="email" placeholder="Ex: seu@email.com" required>
+                </div>
+                
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Ex: Olá, gostaria de fazer um orçamento!"></textarea>
+                </div>
+        
                <button type="submit">Enviar</button>
             </form>
         </section>
@@ -103,21 +111,23 @@
         <nav>
             <ul>
                 <li>
-                    <a href="https://www.instagram.com" target="_blank"></a>
+                    <a href="https://www.instagram.com/eujoao_moraes" target="_blank"></a>
                     <img src="assets/img/instagram.png" alt="">
                 </li>
 
                 <li>
                     <a href="https://github.com/joaovmvm06-stack" target="_blank"></a>
-                    <img src="assets/img/GitHub.png" alt="">
+                    <img src="assets/img/GitHub (2).png" alt="">
                 </li>
 
                 <li>
-                    <a href="https://www.linkedin.com" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/joão-moraes-35605a278" target="_blank"></a>
                     <img src="assets/img/linkendin.png" alt="">
                 </li>
             </ul>
         </nav>
+
+        <p>&copy; Todos os direitos reservados</p>
     </footer>
 </body>
 
